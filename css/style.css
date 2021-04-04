@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: blanchedalmond;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fdcb6e;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+}
+header nav ul li a:hover {
+    
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: gray;
+}
+.logo {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: black;
+}
+.gallery {
+    padding: 100px 0;
+}
+.slider {
+    background: var(--orange);
+    padding: 10px 10px 0px 10px;
+}
+.gallery img {
+    padding: 15px;  /* ovako sam uspeo da resim ovaj padding, da li je to dobro ili mora u js da se radi? */
+}
