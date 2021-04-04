@@ -31,7 +31,8 @@ header nav ul li a {
     color: black;
 }
 header nav ul li a:hover {
-    
+    cursor: pointer;
+    transition: .3s ease;
     font-weight: 500;
     font-size: 1.25rem;
     color: gray;
